@@ -31,15 +31,15 @@ Pokud si chcete projekt spustit lokálně pro vývoj, postupujte podle těchto k
 Nejprve si stáhněte kód k sobě do počítače:
 ```bash
 git clone [https://github.com/barborajurcova/sumka.git](https://github.com/barborajurcova/sumka.git)
-cd sumka
+cd sumka```
 
 ## 2. Instalace závislostí
 
 Protože složka node_modules se na GitHub nenahrává, musíte si všechny potřebné knihovny nainstalovat:
 
-Bash
+```Bash
 npm install
-
+```
 ## 3. Spuštění vývojového serveru
 
 Nyní můžete aplikaci spustit:
