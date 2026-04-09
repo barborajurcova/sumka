@@ -31,7 +31,8 @@ Pokud si chcete projekt spustit lokálně pro vývoj, postupujte podle těchto k
 Nejprve si stáhněte kód k sobě do počítače:
 ```bash
 git clone [https://github.com/barborajurcova/sumka.git](https://github.com/barborajurcova/sumka.git)
-cd sumka```
+cd sumka
+```
 
 ## 2. Instalace závislostí
 
@@ -44,16 +45,18 @@ npm install
 
 Nyní můžete aplikaci spustit:
 
-Bash
+```Bash
 npm run dev
+```
 
 Aplikace poběží standardně na adrese http://localhost:5173.
 
 ## Nasazení (Deployment)
 Pro produkční sestavení použijte příkaz:
 
-Bash
+```Bash
 npm run build
+```
 
 Výslednou složku dist pak můžete nahrát na jakýkoliv hosting (Vercel, Netlify, atd.).
 
